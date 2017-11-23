@@ -1,3 +1,4 @@
+package cat.udl.tennis.old;
 
 public class TennisGame1 implements TennisGame {
 
