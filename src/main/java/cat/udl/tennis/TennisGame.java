@@ -1,6 +1,6 @@
 package cat.udl.tennis;
 
-import cat.udl.tennis.game1.Player;
+import cat.udl.tennis.game.Player;
 
 public interface TennisGame {
     void player1WonPoint();

@@ -1,6 +1,6 @@
 package cat.udl.tennis;
 
-import cat.udl.tennis.game1.TennisGameImpl;
+import cat.udl.tennis.game.TennisGameImpl;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;

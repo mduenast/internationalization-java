@@ -1,4 +1,4 @@
-package cat.udl.tennis.game1;
+package cat.udl.tennis.game;
 
 public enum ScoreMessage {
     LOVE_ALL("Love-All"),
