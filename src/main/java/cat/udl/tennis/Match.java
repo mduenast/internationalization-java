@@ -8,7 +8,6 @@ import java.text.MessageFormat;
 import java.util.Locale;
 import java.util.ResourceBundle;
 import java.util.Scanner;
-import java.util.logging.Logger;
 
 public class Match {
     private TennisGame tennisGame = new TennisGameImpl();
@@ -17,7 +16,7 @@ public class Match {
         Match match = new Match();
         String markerPlayer;
         Scanner in = new Scanner(System.in);
-        final ResourceBundle resourceBundle = ResourceBundle.getBundle("resourcesBundle",Locale.getDefault());
+        final ResourceBundle resourceBundle = ResourceBundle.getBundle("resourcesBundle", Locale.getDefault());
 
         System.out.println(resourceBundle.getString("welcome.to.mytennis"));
         System.out.println(resourceBundle.getString("player.1.name"));

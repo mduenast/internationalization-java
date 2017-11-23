@@ -1,6 +1,5 @@
 package cat.udl.tennis.game;
 
-import javax.annotation.Resource;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
