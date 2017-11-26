@@ -16,11 +16,11 @@ public enum ScoreMessage {
     FIFTEEN("fifteen"),
     THIRTY("thirty"),
     FORTY("forty");
-    private final ResourceBundle resourceBundle = ResourceBundle.getBundle("resourcesBundle", Locale.getDefault());
+    private final ResourceBundle i18n = ResourceBundle.getBundle("bundle", Locale.getDefault());
     private final String message;
 
     ScoreMessage(String message) {
-        this.message = resourceBundle.getString(message);
+        this.message = i18n.getString(message);
     }
 
     public String getMessage() {
